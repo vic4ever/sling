@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
  *  POST servlet. This reacts to POST on our ORDERS_PATH, and
  *  returns a somewhat long random hex string for the node name. 
  */
-@Component
+@Component(enabled=false)
 @Service
 public class HexNodeNameGenerator implements NodeNameGenerator {
     private static final Random random = new Random(System.currentTimeMillis());

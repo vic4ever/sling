@@ -1,0 +1,8 @@
+auth.annonymous=B"false"
+auth.sudo.cookie="sling.sudo"
+auth.http.realm="Sling\\(Development)"
+sling.auth.requirements=[""]
+sling.auth.anonymous.user=""
+auth.uri.suffix=["/j_security_check"]
+auth.http="preemptive"
+auth.sudo.parameter="sudo"
