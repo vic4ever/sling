@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+//This is a port from https://github.com/aleksblendwerk/mnemo for Java
+
 public class Mnemo {
 
     private static int ID = 0;
