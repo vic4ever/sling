@@ -10,8 +10,6 @@ import java.util.Map.Entry;
 
 public class Mnemo {
 
-    private static int ID = 0;
-
     protected char[] consonants = new char[]{
             'b', 'd', 'g', 'h', 'j', 'k', 'm',
             'n', 'p', 'r', 's', 't', 'z'};
@@ -93,7 +91,7 @@ public class Mnemo {
             return this.negative + "" +  this.fromInteger(Math.abs(integer));
         }
 
-        return this.toSpecial(this.fromIntegerInner(integer) + ID);
+        return this.toSpecial(this.fromIntegerInner(integer));
     }
 
 
